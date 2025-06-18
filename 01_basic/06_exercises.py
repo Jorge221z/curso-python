@@ -36,9 +36,17 @@ print("--------------")
 
 print("\nEjercicio 3: Casting de tipos")
 print("Convierte la cadena \"12345\" a un entero y luego a un float.")
-print("Convierte el float 3.99 a un entero. ¿Qué ocurre?")
+cadena = "12345"
 
-### Completa aquí
+entero = int(cadena)
+
+flotante = float(entero)
+
+print("Convierte el float 3.99 a un entero. ¿Qué ocurre?")
+numero = 3.99
+
+print(int(numero))
+#se le quitan los decimales
 
 print("--------------")
 
@@ -64,8 +72,8 @@ print("4. El resultado debería ser 1")
 
 numero_pi = 3.14
 
-numero_pi = round(numero_pi)
+numero_pi_redondeado = round(numero_pi)
 
-numero_pi = numero_pi // 2   # Con / se hace la división normal. Con // se hace la división entera, que elimina el resto.
+numero_pi_dividido = numero_pi_redondeado // 2   # Con / se hace la división normal. Con // se hace la división entera, que elimina el resto.
 
-print(numero_pi)
+print(numero_pi_dividido)
